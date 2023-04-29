@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(45 45 45);
+}
+
+/* Header CSS ********************** */
+
+.header {
+    background-image: url("CH-en-20230306-popsignuptwoweeks-perspective_alpha_website_small.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode: multiply;
+     */
+}
+#dark-effect{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+/* Navbar CSS****************** */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    background-color: transparent;
+    margin-inline: 11rem;
+}
+
+.navbar img {
+    width: 10rem;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border-radius: 5px;
+    border: none;
+    outline: transparent;
+    padding: 0.5rem;
+}
+
+.lan-btn {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 1rem;
+
+}
+
+.lan-btn select {
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    border-radius: 2px;
+    padding-inline: 0.5rem;
+}
+
+/* Home CSS ****************************** */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 11rem;
+}
+
+.home-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+
+
+}
+
+.home-text h1 {
+    font-size: 3rem;
+    font-weight: 1000;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    
+
+}
+
+.home-text p {
+    font-size: 1.2rem;
+    
+
+    color: white;
+
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.email-btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+
+}
+
+.email-btn input {
+    width: 20rem;
+    padding: 0.5rem;
+    background: transparent;
+    border-radius: 2px;
+    border: 1px solid white;
+    height: 3rem;
+}
+
+.email-btn input::placeholder {
+    color: white;
+}
+
+
+
+
+ 
+/*      2nd section      */
+
+.secondc{
+    background-color: black;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-block: 4rem;
+    
+}
+.text2{
+    color: white;
+    margin-left: 5rem;
+}
+
+.text2 h1{
+    font-size: 3rem;
+    font-weight: 1000;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text2 p{
+    font-size: 1.2rem;
+    
+
+    color: white;
+
+    font-family: 'Roboto Slab', serif;
+}
+.tvimg{
+    position: relative;
+   
+    /* width: 100%; */
+    /* width: max-content; */
+}
+.imgb {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+   
+
+} 
+
+.vida{
+   
+    position: absolute;
+    top: 21%;
+    right: 18%;
+    width: 69%;
+    
+
+
+
+}
+/*      3nd section      */
+
+
+.thirdc{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-block: 4rem;
+   
+
+}
+
+.text3{
+    color: white;
+    margin-right: 9rem;
+    
+}
+
+.text3 h1{
+    font-size: 3rem;
+    font-weight: 1000;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.text3 p{
+    font-size: 1.2rem;
+    
+
+    color: white;
+
+    font-family: 'Roboto Slab', serif;
+}
+
+.imgc{
+    width: 90%;
+}
+
+  /*        4th section         */
+
+
+.fourthc{
+   
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-block: 4rem;
+    
+}
+
+.text4{
+    color: white;
+    margin-left: 3rem;
+}
+
+.text4 h1{
+    font-size: 3rem;
+    font-weight: 1000;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text4 p{
+    font-size: 1.2rem;
+    
+
+    color: white;
+
+    font-family: 'Roboto Slab', serif;
+}
+
+.imgd{
+    width: 90%;
+}
+
+
+  /*        5th section         */
+
+.fifthc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    padding-block: 4rem;
+}
+
+.text5{
+    color: white;
+}
+
+.text5 h1{
+    font-size: 3rem;
+    font-weight: 100;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text5 p{
+    font-size: 1.2rem;
+    
+
+    color: white;
+
+    font-family: 'Roboto Slab', serif;
+}
+
+.imge{
+    width: 90%;
+}
+
+.gap{
+    background-color: rgb(35,35,35);
+    height: 0.4em;
+
+}
+
+ /*        6th section         */
+
+.sixthc{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    padding-block: 4rem;
+    color: white;
+    gap: 1rem;
+}
+
+.text6 h1{
+    font-size: 3rem;
+    font-weight: 100;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.btns{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 0.4rem;
+    
+    font-family: 'Roboto Slab', serif;
+    width: 78%;
+    
+}
+
+.button{
+     background-color: rgb(45,45,45);
+     color: white;
+     padding-inline: 1.5rem;
+     padding-block: 1.5rem;
+   font-size: 1.2rem;
+   display: flex;
+   justify-content: space-between;
+   
+ 
+}
+
+.email-btnb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.email-btnb p {
+    font-size: 1.2rem;
+    
+
+    color: white;
+
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.mailbtn{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.email-btnb input {
+    width: 20rem;
+    padding: 0.5rem;
+    background: transparent;
+    border-radius: 2px;
+    border: 1px solid white;
+    height: 3rem;
+}
+
+.email-btnb input::placeholder {
+    color: white;
+}
+
+.btnb {
+    display: flex;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border-radius: 2px;
+    border: none;
+    outline: transparent;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+  
+    font-family: 'Roboto Slab', serif;
+    
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+
+
+
+/* Media Queriess ************************* */
+
+@media screen and (max-width: 1250px) {
+    .navbar {
+        margin-inline: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        margin-inline: 1rem;
+    }
+
+    .lan-btn select {
+        font-size: 0.7rem;
+        border-radius: 2px;
+        padding-inline: 0;
+    }
+
+}

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+
+
+    color: white;
+    display: flex;
+
+    background-blend-mode: multiply;
+    height: 100vh;
+    width: 100%;
+   
+
+ overflow: hidden;
+}
+
+.img {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    /* height: 100vh;
+    width: 100vw; */
+   
+
+}
+
+.text {
+
+    /* position: absolute;
+    z-index: -12;  */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+
+    gap: 1rem;
+}
+
+.lowend {
+    display: flex;
+
+    gap: 0.4rem;
+
+}
+
+.lowend form{
+   
+}
+
+.lowend form input {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    line-height: 1.5rem;
+
+    background-color: transparent;
+
+
+
+    padding: 1.5rem 1rem 0.5rem;
+    width: 20rem;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+.lowend form input::placeholder {
+    color: rgb(255, 255, 255);
+
+}
+
+.btn1 {
+    line-height: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+
+.line {
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.nline {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.nlogo{
+
+
+  
+    width: 9.25rem;
+    height: 4.5rem;
+    color: rgba(229, 9, 20, 1);
+    fill: currentColor;
+    display: block;
+}
+
+.language{
+  
+    width: 8rem;
+    color: black;
+    background-color: transparent;
+    border: 4 solid transparent;
+    padding: 0.5rem;
+    
+   
+}
+
+
+.language option{
+    color: black;
+}
+
+.rightnav{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+  margin-left: auto;
+}
+
+.btn2{
+    background-color: red;
+    color: white;
+} 
+
+.navbar{
+display: flex;
+/* margin-inline:5rem; */
+max-width: 80%;
+margin: auto;
+
+}
